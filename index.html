@@ -23,10 +23,17 @@
         .header {
             line-height: 1;
             padding: 1em 1em 0;
+            font-family: Verdana;
         }
 
         .header h1 {
-            font-family: Verdana;
+            margin: 0;
+            font-weight: normal;
+            font-size: 38px;
+        }
+
+        .header .subtitle {
+            font-size: 19px;
         }
 
         .body {
@@ -177,14 +184,11 @@
 <div class="body">
     <div class="header">
         <div style="display: flex;
-    align-items: center;
-    gap: 0.5em">
-            <img style="width: 70px; height: auto" src="assets/fibi-logo.png">
+    align-items: center">
+            <img style="width: 70px; height: auto;  padding-right: 0.5em" src="assets/fibi-logo.png">
             <div style="display: flex; flex-direction: column">
-                <h1 style="margin: 0;
-    font-weight: normal;
-    font-size: 38px;">fibi</h1>
-                <span style="font-size: 20px">personal finance app</span>
+                <h1>fibi</h1>
+                <span class="subtitle">personal finance app</span>
             </div>
         </div>
     </div>
